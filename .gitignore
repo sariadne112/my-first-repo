@@ -1,0 +1,6 @@
+#local eviroment files
+.env*
+
+# misc
+.vscode
+/folder_name
