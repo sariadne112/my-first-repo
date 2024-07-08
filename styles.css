@@ -16,6 +16,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .box {
   display: flex;
   flex-direction: column;
@@ -26,6 +27,7 @@ body {
   height: 350px;
   background: #fff;
 }
+
 .box::before {
   content: "";
   position: absolute;
@@ -37,6 +39,7 @@ body {
   border-radius: 5px;
   transform: skewX(2deg) skewY(4deg);
 }
+
 .box::after {
   content: "";
   position: absolute;
@@ -47,6 +50,7 @@ body {
   background: linear-gradient(315deg, #D95252, #D95252);
   transform: skewX(2deg) skewY(2deg);
 }
+
 .box span {
   position: absolute;
   top: 0;
@@ -56,6 +60,7 @@ body {
   background: #282c34;
   z-index: 10;
 }
+
 h2, h3 {
   position: relative;
   color: #fff;
@@ -63,6 +68,7 @@ h2, h3 {
   z-index: 11;
   margin: 0;
 }
+
 .box h3 {
   font-size: 1.25em;
   transition: ease-in-out 0.3s;
